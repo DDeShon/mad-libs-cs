@@ -11,8 +11,11 @@ namespace Mad_Libs_CS
         static void Main(string[] args)
         {
             // Init Variables
+
             // Get User Input
+
             // Init Story
+
             // Print Story
         }
     }
