@@ -26,6 +26,7 @@ namespace Mad_Libs_CS
             "so hopelessly dependent on the system, that they will fight to protect it.";
 
             // Print Story
+            Console.WriteLine(madlibsStory);
         }
     }
 }
