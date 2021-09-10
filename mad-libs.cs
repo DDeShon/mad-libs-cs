@@ -20,6 +20,8 @@ namespace Mad_Libs_CS
             Console.WriteLine("Please enter your name.")
             neo = Console.ReadLine();
             
+            Console.WriteLine($"Hello {neo}! Let's begin. What is something that you want to know more about?");
+            theMatrix = Console.ReadLine();
 
             // Init Story
             string madlibsStory =
