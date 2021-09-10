@@ -15,6 +15,11 @@ namespace Mad_Libs_CS
             string[] profession = new string[4], adj = new string[2];
 
             // Get User Input
+            Console.WriteLine("Hello user!");
+            Console.WriteLine("Let's play a game of madlibs!");
+            Console.WriteLine("Please enter your name.")
+            neo = Console.ReadLine();
+            
 
             // Init Story
             string madlibsStory =
