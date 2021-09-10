@@ -34,6 +34,7 @@ namespace Mad_Libs_CS
 
             // Print Story
             Console.WriteLine(madlibsStory);
+            Console.ReadKey();
         }
     }
 }
