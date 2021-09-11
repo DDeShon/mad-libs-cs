@@ -23,7 +23,7 @@ namespace Mad_Libs_CS
             Console.WriteLine($"Hello {neo}! Let's begin. What is something that you want to know more about?");
             theMatrix = Console.ReadLine();
 
-            Console.WriteLine($"You want to know more about {theMatrix}, do you?")
+            Console.WriteLine($"So you want to know more about {theMatrix}, do you?")
             Console.WriteLine($"First, tell me what you already know about {theMatrix}.")
             Console.WriteLine($"What noun would you best use to describe {theMatrix}?")
             system = Console.ReadLine();
