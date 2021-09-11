@@ -34,7 +34,7 @@ namespace Mad_Libs_CS
             Console.WriteLine("Please tell me your favorite place to relax.");
             inside = Console.ReadLine();
 
-            Console.WriteLine("What is the profession that you would most like to pursue?")
+            Console.WriteLine("What is the profession that you would most like to pursue?");
             profession[0] = Console.ReadLine();
 
             // Init Story
