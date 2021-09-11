@@ -29,9 +29,9 @@ namespace Mad_Libs_CS
             system = Console.ReadLine();
 
             Console.WriteLine($"Please provide me with another noun, in opposition to {system}.");
-            Console.ReadLine();
+            enemy = Console.ReadLine();
 
-            
+
 
             // Init Story
             string madlibsStory =
