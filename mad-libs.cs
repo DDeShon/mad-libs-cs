@@ -17,16 +17,21 @@ namespace Mad_Libs_CS
             // Get User Input
             Console.WriteLine("Hello user!");
             Console.WriteLine("Let's play a game of madlibs!");
-            Console.WriteLine("Please enter your name.")
+            Console.WriteLine("Please enter your name.");
             neo = Console.ReadLine();
             
             Console.WriteLine($"Hello {neo}! Let's begin. What is something that you want to know more about?");
             theMatrix = Console.ReadLine();
 
-            Console.WriteLine($"So you want to know more about {theMatrix}, do you?")
-            Console.WriteLine($"First, tell me what you already know about {theMatrix}.")
-            Console.WriteLine($"What noun would you best use to describe {theMatrix}?")
+            Console.WriteLine($"So you want to know more about {theMatrix}, do you?");
+            Console.WriteLine($"First, tell me what you already know about {theMatrix}.");
+            Console.WriteLine($"What noun would you best use to describe {theMatrix}?");
             system = Console.ReadLine();
+
+            Console.WriteLine($"Please provide me with another noun, in opposition to {system}.");
+            Console.ReadLine();
+
+            
 
             // Init Story
             string madlibsStory =
