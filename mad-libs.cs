@@ -20,20 +20,25 @@ namespace Mad_Libs_CS
             Console.WriteLine("Please enter your name.");
             neo = Console.ReadLine();
             
+            // Get theMatrix variable from user
             Console.WriteLine($"Hello {neo}! Let's begin. What is something that you want to know more about?");
             theMatrix = Console.ReadLine();
 
+            // Get system variable from user
             Console.WriteLine($"So you want to know more about {theMatrix}, do you?");
             Console.WriteLine($"First, tell me what you already know about {theMatrix}.");
             Console.WriteLine($"What noun would you best use to describe {theMatrix}?");
             system = Console.ReadLine();
 
+            // Get enemy variable from user
             Console.WriteLine($"Please provide me with another noun, in opposition to {system}.");
             enemy = Console.ReadLine();
 
+            // Get inside variable from user
             Console.WriteLine("Please tell me your favorite place to relax.");
             inside = Console.ReadLine();
             
+            // Get profession list from user
             Console.WriteLine("What are the top 4 jobs that you would most like to have?");
             
             for (int i = 0; i < profession.length; i++){
