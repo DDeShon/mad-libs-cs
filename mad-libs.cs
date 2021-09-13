@@ -54,6 +54,18 @@ namespace Mad_Libs_CS
             Console.WriteLine("We're nearing the end now. Please give me another verb.");
             unplugged = Console.ReadLine();
 
+            // Get adjectives from user
+            Console.WriteLine("Please provide me with 2 descriptive adjectives.");
+
+            for (int i = 0; i < adj.length; i++){
+                Console.WriteLine($"Adjective {i + 1} / {adj.length}: ");
+                adj[i] = Console.ReadLine();
+            }
+
+            // Get fight variable from user
+            Console.WriteLine("This is the end. Please provide one final verb, to wrap up the story.")
+            fight = Console.ReadLine();
+
             // Init Story
             string madlibsStory =
             $"{theMatrix} is a {system}, {Neo}. That {system} is our {enemy}. " +
