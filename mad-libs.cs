@@ -46,7 +46,13 @@ namespace Mad_Libs_CS
                 profession[i] = Console.ReadLine();
             }
             
-            
+            // Get save variable from user
+            Console.WriteLine("Now, please provide me with a verb to provide action for our story.");
+            save = Console.ReadLine();
+
+            // Get unplugged variable from user
+            Console.WriteLine("We're nearing the end now. Please give me another verb.");
+            unplugged = Console.ReadLine();
 
             // Init Story
             string madlibsStory =
