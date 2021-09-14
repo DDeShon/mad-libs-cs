@@ -19,7 +19,7 @@ namespace Mad_Libs_CS
             Console.WriteLine("Let's play a game of madlibs!");
             Console.WriteLine("Please enter your name.");
             neo = Console.ReadLine();
-            
+
             // Get theMatrix variable from user
             Console.WriteLine($"Hello {neo}! Let's begin. What is something that you want to know more about?");
             theMatrix = Console.ReadLine();
@@ -37,15 +37,16 @@ namespace Mad_Libs_CS
             // Get inside variable from user
             Console.WriteLine("Please tell me your favorite place to relax.");
             inside = Console.ReadLine();
-            
+
             // Get profession list from user
             Console.WriteLine("What are the top 4 jobs that you would most like to have?");
-            
-            for (int i = 0; i < profession.length; i++){
+
+            for (int i = 0; i < profession.length; i++)
+            {
                 Console.WriteLine($"Profession {i + 1} / {profession.length}: ");
                 profession[i] = Console.ReadLine();
             }
-            
+
             // Get save variable from user
             Console.WriteLine("Now, please provide me with a verb to provide action for our story.");
             save = Console.ReadLine();
@@ -57,7 +58,8 @@ namespace Mad_Libs_CS
             // Get adjectives from user
             Console.WriteLine("Please provide me with 2 descriptive adjectives.");
 
-            for (int i = 0; i < adj.length; i++){
+            for (int i = 0; i < adj.length; i++)
+            {
                 Console.WriteLine($"Adjective {i + 1} / {adj.length}: ");
                 adj[i] = Console.ReadLine();
             }
