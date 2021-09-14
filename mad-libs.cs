@@ -65,7 +65,7 @@ namespace Mad_Libs_CS
             }
 
             // Get fight variable from user
-            Console.WriteLine("The end is finally here. Please provide one final verb, to wrap up the story.")
+            Console.WriteLine("The end is finally here. Please provide one final verb, to wrap up the story.");
             fight = Console.ReadLine();
 
             // Init Story
