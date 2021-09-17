@@ -52,7 +52,7 @@ namespace Mad_Libs_CS
             save = Console.ReadLine();
 
             // Get unplugged variable from user
-            Console.WriteLine("We're nearing the end now. Please give me another verb.");
+            Console.WriteLine("We're nearing the end now. Please give me an opposing verb.");
             unplugged = Console.ReadLine();
 
             // Get adjectives from user
